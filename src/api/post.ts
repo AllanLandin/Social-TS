@@ -1,4 +1,4 @@
-import perfilPhoto from "@/assets/perfil-photo.jpg";
+import perfilPhoto from "../assets/perfil-photo.jpg";
 import { IComment, IPost } from "../utils/types";
 
 interface ICommentProps {

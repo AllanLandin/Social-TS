@@ -3,8 +3,8 @@ import { formatPublishAt } from "../../utils/formatPublishAt";
 import { CommentCard } from "../CommentCard/CommentCard";
 import { Avatar } from "../Avatar/Avatar";
 import { ChangeEvent, FormEvent, useState } from "react";
-import { addComment, Comment } from "../../api/post";
-import perfilPhoto from "@/assets/perfil-photo.jpg";
+import { Comment } from "../../api/post";
+import perfilPhoto from "../../assets/perfil-photo.jpg";
 import { IPost } from "../../utils/types";
 import { InvalidEvent } from "react";
 
