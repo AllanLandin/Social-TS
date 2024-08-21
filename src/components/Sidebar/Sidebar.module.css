@@ -1,0 +1,50 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+
+  border-radius: 2px;
+  background-color: var(--gray-800);
+}
+
+.cover {
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: calc(0px - (3.75rem / 1.5));
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer {
+  padding: 2rem;
+  border-top: 1px solid var(--gray-900);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--green-500);
+  border: 1px solid var(--green-500);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer a:hover {
+  background-color: var(--green-500);
+  color: var(--white);
+  transition: 0.1s;
+}
